@@ -208,7 +208,8 @@ top: -4px;
 width: 40px;
 }
 
-.mobile-menu{
+
+.mobile-header{
     display: none;
 }
 
@@ -217,6 +218,7 @@ width: 40px;
 
 #intro{
     background-image: url("../images/image/background.jpg");
+    background-size: cover;
     height: 796px;
 }
 .intro-title{
@@ -224,14 +226,13 @@ width: 40px;
     font-weight: 500;
     line-height: 77px;
     color: #FFFFFF;
-    margin: 98px 0px 40px 272px;
+    margin: 98px 0px 40px 0px;
 }
 
 .intro-title-2{
 font-size: 30px;
 font-weight: 700;
 color: #FFFFFF;
-margin-left: 277px;
 margin-bottom: 60px;
 }
 
@@ -241,14 +242,12 @@ margin-bottom: 60px;
     width: 300px;
     height: 95px;
     border-radius: 80px;
-    margin-left: 277px;
     padding: 10px 19px;
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 91px;
 }
 .plus-1{
-    margin-left: 277px;
     display: inline-block;
 }
 .plus-2{
@@ -295,7 +294,7 @@ margin-right: 35px;
 /*promotion section starts*/
 
 .promotion-title{
-    margin: 80px 0 50px 150px;
+    margin: 80px 0 50px 0px;
     font-size: 40px;
     font-weight: 800;
     color: #FFC85E;
@@ -306,12 +305,12 @@ margin-right: 35px;
     color: #111111;
 }
 
-.item-1{
+.item-1, .item-2, .item-3, .item-4{
     background-color: #FFFFFF;
     position: relative;
     height: 490px;
-    border: 1px solid black;
-    
+    box-shadow: 0px 14px 39px -11px #0000000F;
+    margin-bottom: 20px;
 }
 
 .img-item-1{
@@ -338,7 +337,7 @@ top: 10px;
     text-align: center;
 }
 
-.item-1-ml{
+.item-ml{
     font-size: 12px;
     font-weight: 400;
     color: #3F4E65;
@@ -346,7 +345,7 @@ top: 10px;
 
 }
 
-.item-1-ml p{
+.item-ml p{
     display: inline-block;
 }
 
@@ -355,19 +354,19 @@ top: 10px;
     height: 220px;
 }
 
-.item1-title{
+.item-title{
 font-size: 16px;
 font-weight: 500;
 color: #111111;
 margin-left: 10px;
 }
 
-.item1-title span{
+.item-title span{
 font-weight: 800;
 }
 
 .code{
-    line-height: 7px;
+    line-height: 5px;
     margin-top: 20px;
 }
 
@@ -408,21 +407,68 @@ margin-left: 10px;
     font-weight: 700;
 }
 
+.img-item-3{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
 
-
-
+.img-item-4{
+    position: absolute;
+    left: 45px;
+    top: 20px;
+}
 
 
 
 
 
 @media  screen and (max-width:576px) {
-.contact, .btn-catalog, .search-form, .search-item, .contact-number, .calling, .green-dot, .btn-price, .basket-txt, .hr-1{
+
+.desktop-header{
     display: none;
 }
 
+.mobile-header{
+    display: block;
+}
+
 .mobile-menu{
-    display: inline-block;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+position: relative;
+}
+
+.btn-mobile-menu{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: #FFC85E;
+    color: #EDEDED;
+    border-radius: 1000px;
+    margin-top: 10px;
+   /* height: 103px;*/
+}
+
+.eye3{
+    position: absolute;
+    top: 43px;
+    left: 92px;
+}
+
+.eye4{
+    position: absolute;
+    top: 43px;
+    left: 107px;
+}
+
+.mobile-basket{
+margin-top: 15px;
+}
+
+.mobile-catalog{
+   /* height: 41px;*/
 }
 }
     

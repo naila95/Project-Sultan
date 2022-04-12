@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- Header starts -->
-    <header>
+    <header class="desktop-header">
       <div class="container">
         <div class="row">
           <div class="contact">
@@ -64,9 +64,6 @@
       <div class="container">
         <div class="row">
           <div class="brand">
-            <div class="mobile-menu">
-              <img src="./images/icon/mobile-menu.svg" alt="mobile-menu" />
-            </div>
             <img src="./images/icon/sultan.svg" alt="sultan" />
             <img class="eye1" src="./images/icon/eye1.svg" alt="eye1" />
             <img class="eye2" src="./images/icon/eye2.svg" alt="eye2" />
@@ -121,23 +118,60 @@
         </div>
       </div>
     </header>
+    <header class="mobile-header">
+      <div class="mobile-menu">
+        <button type="button" class="btn btn-mobile-menu">
+          <img src="./images/icon/mobile-menu.svg" alt="menu" />
+        </button>
+        <img src="./images/icon/sultan.svg" alt="sultan" />
+        <img class="eye3" src="./images/icon/eye1.svg" alt="eye1" />
+        <img class="eye4" src="./images/icon/eye2.svg" alt="eye2" />
+        <img src="./images/icon/c.svg" alt="c" />
+        <img src="./images/icon/y.svg" alt="y" />
+        <img src="./images/icon/l.svg" alt="l" />
+        <img src="./images/icon/t.svg" alt="t" />
+        <img src="./images/icon/a.svg" alt="a" />
+        <img class="n" src="./images/icon/n.svg" alt="n" />
+        <div class="basket">
+          <img
+            class="mobile-basket"
+            src="./images/icon/basket.svg"
+            alt="basket"
+          />
+          <span class="translate-middle badge rounded-pill basket-span">3</span>
+        </div>
+        <hr />
+        <div class="mobile-catalog">
+          <div class="container">
+            <div class="row">
+              <div class="col-6"><a href="#"></a></div>
+              <div class="col-6"><a href="#"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- Header ends -->
     <main>
       <!-- Intro section starts -->
       <section id="intro">
-        <div class="row">
-          <div class="col-md-8 col-sm-12">
-            <p class="intro-title">Бытовая химия, косметика и хозтовары</p>
-            <p class="intro-title-2">оптом по кокчетаву и области</p>
-            <button type="button" class="btn btn-catalog-2">B КАТАЛОГ</button>
-            <div class="intro-bottom">
-              <div class="plus-1">
-                <button type="button" class="btn btn-plus-1">+</button>
-                <p>Только самые выгодные предложения</p>
-              </div>
-              <div class="plus-2">
-                <button type="button" class="btn btn-plus-2">+</button>
-                <p>Бесплатная доставка по <span>Кокчетаву от 10 тыс ₸</span></p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <p class="intro-title">Бытовая химия, косметика и хозтовары</p>
+              <p class="intro-title-2">оптом по кокчетаву и области</p>
+              <button type="button" class="btn btn-catalog-2">B КАТАЛОГ</button>
+              <div class="intro-bottom">
+                <div class="plus-1">
+                  <button type="button" class="btn btn-plus-1">+</button>
+                  <p>Только самые выгодные предложения</p>
+                </div>
+                <div class="plus-2">
+                  <button type="button" class="btn btn-plus-2">+</button>
+                  <p>
+                    Бесплатная доставка по <span>Кокчетаву от 10 тыс ₸</span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -149,6 +183,7 @@
         <div class="container">
           <div class="row">
             <p class="promotion-title">Акционные <span>товары</span></p>
+
             <div class="col-md-3">
               <div class="item-1">
                 <div class="item1-img-btn">
@@ -162,11 +197,11 @@
                   </button>
                 </div>
 
-                <div class="item-1-ml">
+                <div class="item-ml">
                   <img src="./images/icon/bottle.svg" alt="bottle" />
                   <p>450 мл</p>
                 </div>
-                <p class="item1-title">
+                <p class="item-title">
                   <span>AOS</span> Cp-во для мытья посуды Апельсин+мята
                 </p>
                 <div class="code">
@@ -184,9 +219,251 @@
               </div>
             </div>
 
-            <div class="col-md-3"></div>
-            <div class="col-md-3"></div>
-            <div class="col-md-3"></div>
+            <div class="col-md-3">
+              <div class="item-2">
+                <div class="item1-img-btn">
+                  <img
+                    class="img-item-1"
+                    src="./images/icon/item2.svg"
+                    alt="item-2"
+                  />
+                  <button type="button" class="btn btn-item-1">
+                    <p>ПОПУЛЯРНОЕ</p>
+                  </button>
+                </div>
+
+                <div class="item-ml">
+                  <img src="./images/icon/bottle.svg" alt="bottle" />
+                  <p>450 мл</p>
+                </div>
+                <p class="item-title">
+                  <span>AOS</span> средство для мытья посуды Crystal
+                </p>
+                <div class="code">
+                  <p>Штрихкод: <span>4604049097548</span></p>
+                  <p>Производитель: <span>Нэфис</span></p>
+                  <p>Бренд: <span>AOS</span></p>
+                </div>
+                <div class="item-basket">
+                  <p>48,76 ₸</p>
+                  <button type="button" class="btn btn-item-basket">
+                    B КОРЗИНУ
+                    <img src="./images/icon/basket2.svg" alt="basket" />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="item-3">
+                <div class="item1-img-btn">
+                  <img
+                    class="img-item-3"
+                    src="./images/icon/item3.svg"
+                    alt="item-3"
+                  />
+                  <button type="button" class="btn btn-item-1">
+                    <p>ПОПУЛЯРНОЕ</p>
+                  </button>
+                </div>
+
+                <div class="item-ml">
+                  <img src="./images/icon/box.svg" alt="box" />
+                  <p>15X28.8</p>
+                </div>
+                <p class="item-title">
+                  <span>ARIEL</span> Автмат Гель CMC жидкое в растворимых
+                </p>
+                <div class="code">
+                  <p>Штрихкод: <span>4604049097548</span></p>
+                  <p>Производитель: <span>Нэфис</span></p>
+                  <p>Бренд: <span>AOS</span></p>
+                </div>
+                <div class="item-basket">
+                  <p>48,76 ₸</p>
+                  <button type="button" class="btn btn-item-basket">
+                    B КОРЗИНУ
+                    <img src="./images/icon/basket2.svg" alt="basket" />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="item-4">
+                <div class="item1-img-btn">
+                  <img
+                    class="img-item-4"
+                    src="./images/icon/item4.svg"
+                    alt="item-4"
+                  />
+                  <button type="button" class="btn btn-item-1">
+                    <p>ПОПУЛЯРНОЕ</p>
+                  </button>
+                </div>
+
+                <div class="item-ml">
+                  <img src="./images/icon/box.svg" alt="box" />
+                  <p>1500 g</p>
+                </div>
+                <p class="item-title">
+                  <span>BIMAX</span> Порошок стиральный Автомат 100 пятен
+                  COMPACT
+                </p>
+                <div class="code">
+                  <p>Штрихкод: <span>4604049097548</span></p>
+                  <p>Производитель: <span>Нэфис</span></p>
+                  <p>Бренд: <span>AOS</span></p>
+                </div>
+                <div class="item-basket">
+                  <p>48,76 ₸</p>
+                  <button type="button" class="btn btn-item-basket">
+                    B КОРЗИНУ
+                    <img src="./images/icon/basket2.svg" alt="basket" />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="item-1">
+                <div class="item1-img-btn">
+                  <img
+                    class="img-item-1"
+                    src="./images/icon/item-1.svg"
+                    alt="item-1"
+                  />
+                  <button type="button" class="btn btn-item-1">
+                    <p>ПОПУЛЯРНОЕ</p>
+                  </button>
+                </div>
+                <div class="item-ml">
+                  <img src="./images/icon/bottle.svg" alt="bottle" />
+                  <p>450 мл</p>
+                </div>
+                <p class="item-title">
+                  <span>AOS</span> Cp-во для мытья посуды Апельсин+мята
+                </p>
+                <div class="code">
+                  <p>Штрихкод: <span>4604049097548</span></p>
+                  <p>Производитель: <span>Нэфис</span></p>
+                  <p>Бренд: <span>AOS</span></p>
+                </div>
+                <div class="item-basket">
+                  <p>48,76 ₸</p>
+                  <button type="button" class="btn btn-item-basket">
+                    B КОРЗИНУ
+                    <img src="./images/icon/basket2.svg" alt="basket" />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="item-2">
+                <div class="item1-img-btn">
+                  <img
+                    class="img-item-1"
+                    src="./images/icon/item2.svg"
+                    alt="item-2"
+                  />
+                  <button type="button" class="btn btn-item-1">
+                    <p>ПОПУЛЯРНОЕ</p>
+                  </button>
+                </div>
+
+                <div class="item-ml">
+                  <img src="./images/icon/bottle.svg" alt="bottle" />
+                  <p>450 мл</p>
+                </div>
+                <p class="item-title">
+                  <span>AOS</span> средство для мытья посуды Crystal
+                </p>
+                <div class="code">
+                  <p>Штрихкод: <span>4604049097548</span></p>
+                  <p>Производитель: <span>Нэфис</span></p>
+                  <p>Бренд: <span>AOS</span></p>
+                </div>
+                <div class="item-basket">
+                  <p>48,76 ₸</p>
+                  <button type="button" class="btn btn-item-basket">
+                    B КОРЗИНУ
+                    <img src="./images/icon/basket2.svg" alt="basket" />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="item-3">
+                <div class="item1-img-btn">
+                  <img
+                    class="img-item-3"
+                    src="./images/icon/item3.svg"
+                    alt="item-3"
+                  />
+                  <button type="button" class="btn btn-item-1">
+                    <p>ПОПУЛЯРНОЕ</p>
+                  </button>
+                </div>
+
+                <div class="item-ml">
+                  <img src="./images/icon/box.svg" alt="box" />
+                  <p>15X28.8</p>
+                </div>
+                <p class="item-title">
+                  <span>ARIEL</span> Автмат Гель CMC жидкое в растворимых
+                </p>
+                <div class="code">
+                  <p>Штрихкод: <span>4604049097548</span></p>
+                  <p>Производитель: <span>Нэфис</span></p>
+                  <p>Бренд: <span>AOS</span></p>
+                </div>
+                <div class="item-basket">
+                  <p>48,76 ₸</p>
+                  <button type="button" class="btn btn-item-basket">
+                    B КОРЗИНУ
+                    <img src="./images/icon/basket2.svg" alt="basket" />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="item-4">
+                <div class="item1-img-btn">
+                  <img
+                    class="img-item-4"
+                    src="./images/icon/item4.svg"
+                    alt="item-4"
+                  />
+                  <button type="button" class="btn btn-item-1">
+                    <p>ПОПУЛЯРНОЕ</p>
+                  </button>
+                </div>
+
+                <div class="item-ml">
+                  <img src="./images/icon/box.svg" alt="box" />
+                  <p>1500 g</p>
+                </div>
+                <p class="item-title">
+                  <span>BIMAX</span> Порошок стиральный Автомат 100 пятен
+                  COMPACT
+                </p>
+                <div class="code">
+                  <p>Штрихкод: <span>4604049097548</span></p>
+                  <p>Производитель: <span>Нэфис</span></p>
+                  <p>Бренд: <span>AOS</span></p>
+                </div>
+                <div class="item-basket">
+                  <p>48,76 ₸</p>
+                  <button type="button" class="btn btn-item-basket">
+                    B КОРЗИНУ
+                    <img src="./images/icon/basket2.svg" alt="basket" />
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
