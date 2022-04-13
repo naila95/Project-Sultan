@@ -448,7 +448,6 @@ position: relative;
     color: #EDEDED;
     border-radius: 1000px;
     margin-top: 10px;
-   /* height: 103px;*/
 }
 
 .eye3{
@@ -467,8 +466,62 @@ position: relative;
 margin-top: 15px;
 }
 
-.mobile-catalog{
-   /* height: 41px;*/
+hr{
+    margin: 0 0;
 }
+
+.mobile-catalog, .mobile-search{
+    padding: 20px;
+}
+
+.mobile-search{
+    margin-left: 25px;
+}
+
+.mobile-catalog a, .mobile-search a{
+   color: #3F4E65;
+   font-size: 15px;
+   font-weight: 600;
+   text-align: center;
+   text-decoration: none;
+}
+
+.m-c-item{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+}
+
+.m-c-1{
+    position: absolute;
+    left: 20px;
+    bottom: 8px;
+}
+
+.m-c-2{
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+}
+
+.m-c-3{
+    position: absolute;
+    left: 10px;
+    bottom: 8px;
+}
+
+.m-c-4{
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+}
+
+.m-s-item{
+    display: inline-block;
+    margin-right: 5px;
+    height: 12px;
+
+}
+
 }
     
