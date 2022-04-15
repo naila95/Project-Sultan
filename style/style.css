@@ -226,8 +226,11 @@ width: 40px;
     background-image: url("../images/image/background.jpg");
    /* background-size: 100%;
     background-repeat: no-repeat;*/
+    width: 100%;
     height: 796px;
 }
+
+
 .intro-title{
     font-size: 65px;
     font-weight: 500;
@@ -575,10 +578,89 @@ padding: 10px 19px;
 
 .map-img{
     background-image: url(../images/image/map.jpg);
-    height: 400px;
+    height: 500px;
     position: relative;
 }
 
+#map-section{
+    margin-bottom: 100px;
+}
+
+.map-contact{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(30px);
+    width: 700px;
+    height: 400px;
+    padding: 30px 30px;
+}
+
+.map-title{
+    color: #3F4E65;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.map-title2{
+    color: #3F4E65;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 10px;
+}
+
+.map-address, .sales-department, .taxpay{
+width: 250px;
+height: 80px;
+display: inline-block;
+position: relative;
+margin: 10px;
+
+}
+
+.m-a-icon, .taxpay-icon{
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+}
+
+.s-d-title, .m-a-title, .taxpay-title{
+font-size: 14px;
+font-weight: 700;
+color: #111111;
+position: absolute;
+left: 25px;
+}
+
+.m-a-title1, .s-d-txt, .taxpay-txt{
+    font-size: 12px;
+    color: #3F4E65;
+    font-weight: 400;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+
+.m-a-title2, .s-d-txt2, .taxpay-txt2{
+    font-size: 12px;
+    color: #3F4E65;
+    font-weight: 400;
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    top: 47px;
+}
+
+/*footer*/
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #3F4E65;
+}
 
 
 @media  screen and (max-width:576px) {
@@ -720,8 +802,6 @@ hr{
     font-size: 10px;
     font-weight: 400;
 }
-
-
 
 }
     
