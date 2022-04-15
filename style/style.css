@@ -304,14 +304,14 @@ margin-right: 35px;
 
 /*promotion section starts*/
 
-.promotion-title, .product-title{
+.promotion-title{
     margin: 80px 0 50px 0px;
     font-size: 40px;
     font-weight: 800;
     color: #FFC85E;
 }
 
-.promotion-title span, .product-title span{
+.promotion-title span, .product-title span, .best-title span{
     font-weight: 500;
     color: #111111;
 }
@@ -443,7 +443,7 @@ margin-left: 10px;
     color: #FFC85E;
 }
 
-.product-title-2{
+.product-title-2, .best-title-2{
     font-size: 20px;
     font-weight: 300;
     color: #3F4E65;
@@ -545,13 +545,39 @@ border-radius: 79px;
 padding: 10px 19px;
 }
 
+/*best-item section*/
 
+.best-title{
+    margin: 150px 0 15px 0px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFC85E;
+}
 
+.air-wick, .sibiar, .colgate{
+    margin-right: 8px;
+}
 
+.fresh{
+    margin-right: 13px;
+}
 
+.best-item{
+    margin-bottom: 100px;
+}
 
+.best-item img{
+    box-shadow: 0px 15px 70px -11px #2B1C010A;
 
+}
 
+/*map section*/
+
+.map-img{
+    background-image: url(../images/image/map.jpg);
+    height: 400px;
+    position: relative;
+}
 
 
 
